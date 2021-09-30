@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css"
+            integrity="sha512-BnbUDfEUfV0Slx6TunuB042k9tuKe3xrD6q4mg5Ed72LTgzDIcLPxg6yI2gcMFRyomt+yJJxE+zJwNmxki6/RA=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link rel="icon" type="image/png" href="/favicon.ico" />
+        <link rel="stylesheet" href="./style.css" />
+        <title>Shop</title>
+    </head>
+    <body>
+        <nav class="navbar">
+            <h1 class="company-name">BlablaCart</h1>
+            <i class="fas fa-shopping-cart cart-icon">
+                <span id="cart-count">0</span>
+            </i>
+            <div class="cart hidden-cart">
+                <div class="cart-empty">Cart is empty</div>
+            </div>
+            <div class="userinfo">
+                <h3 class="username">Jane Doe</h3>
+                <img src="./avatar.png" alt="profile" class="profile-image" />
+            </div>
+        </nav>
+
+        <div class="page-content">
+            <div class="sidebar">
+                <div class="menu-header">Categories</div>
+                <div class="menu-item" data-category="fruit">Fruits</div>
+                <div class="menu-item" data-category="vegetable">
+                    Vegetables
+                </div>
+                <div class="menu-item" data-category="spice">Spices</div>
+                <i class="fas fa-chevron-circle-left sidebar-close-btn"></i>
+            </div>
+            <i class="fas fa-angle-double-right sidebar-btn"></i>
+            <div class="main-content">
+                <div class="section-header">
+                    <h1>All Products</h1>
+                </div>
+                <div class="items">
+                    <div class="item spice" id="100">
+                        <img class="product-img" src="./img/BLKPPR.jpg" />
+                        <h2 class="product-name">Black pepper</h2>
+                        <button class="cart-add-btn">Add to cart</button>
+                    </div>
+                    <div class="item fruit" id="101">
+                        <img class="product-img" src="./img/BLUBRY.jpg" />
+                        <h2 class="product-name">Blueberry</h2>
+                        <button class="cart-add-btn">Add to cart</button>
+                    </div>
+                    <div class="item vegetable" id="102">
+                        <img class="product-img" src="./img/BRCL.jpg" />
+                        <h2 class="product-name">Broccoli</h2>
+                        <button class="cart-add-btn">Add to cart</button>
+                    </div>
+                    <div class="item spice" id="103">
+                        <img class="product-img" src="./img/CLV.jpg" />
+                        <h2 class="product-name">Cloves</h2>
+                        <button class="cart-add-btn">Add to cart</button>
+                    </div>
+                    <div class="item spice" id="104">
+                        <img class="product-img" src="./img/CNMN.jpg" />
+                        <h2 class="product-name">Cinnamon</h2>
+                        <button class="cart-add-btn">Add to cart</button>
+                    </div>
+                    <div class="item spice" id="105">
+                        <img class="product-img" src="./img/CRDM.jpg" />
+                        <h2 class="product-name">Cardamom</h2>
+                        <button class="cart-add-btn">Add to cart</button>
+                    </div>
+                    <div class="item fruit" id="106">
+                        <img class="product-img" src="./img/GRP.jpg" />
+                        <h2 class="product-name">Grapes</h2>
+                        <button class="cart-add-btn">Add to cart</button>
+                    </div>
+                    <div class="item fruit" id="107">
+                        <img class="product-img" src="./img/KIWI.jpg" />
+                        <h2 class="product-name">Kiwi</h2>
+                        <button class="cart-add-btn">Add to cart</button>
+                    </div>
+                    <div class="item vegetable" id="108">
+                        <img class="product-img" src="./img/LKS.jpg" />
+                        <h2 class="product-name">Leeks</h2>
+                        <button class="cart-add-btn">Add to cart</button>
+                    </div>
+                    <div class="item vegetable" id="109">
+                        <img class="product-img" src="./img/LTTU.jpg" />
+                        <h2 class="product-name">Lettuce</h2>
+                        <button class="cart-add-btn">Add to cart</button>
+                    </div>
+                    <div class="item fruit" id="110">
+                        <img class="product-img" src="./img/PLM.jpg" />
+                        <h2 class="product-name">Plum</h2>
+                        <button class="cart-add-btn">Add to cart</button>
+                    </div>
+                    <div class="item vegetable" id="111">
+                        <img class="product-img" src="./img/PMKIN.jpg" />
+                        <h2 class="product-name">Pumpkin</h2>
+                        <button class="cart-add-btn">Add to cart</button>
+                    </div>
+                    <div class="item fruit" id="112">
+                        <img class="product-img" src="./img/PNPL.jpg" />
+                        <h2 class="product-name">Pineapple</h2>
+                        <button class="cart-add-btn">Add to cart</button>
+                    </div>
+                    <div class="item fruit" id="113">
+                        <img class="product-img" src="./img/PRS.jpg" />
+                        <h2 class="product-name">Pear</h2>
+                        <button class="cart-add-btn">Add to cart</button>
+                    </div>
+                    <div class="item vegetable" id="114">
+                        <img class="product-img" src="./img/PTT.jpg" />
+                        <h2 class="product-name">Potato</h2>
+                        <button class="cart-add-btn">Add to cart</button>
+                    </div>
+                    <div class="item vegetable" id="115">
+                        <img class="product-img" src="./img/RCPS.jpg" />
+                        <h2 class="product-name">Red capsicum</h2>
+                        <button class="cart-add-btn">Add to cart</button>
+                    </div>
+                    <div class="item spice" id="116">
+                        <img class="product-img" src="./img/STRAN.jpg" />
+                        <h2 class="product-name">Star anise</h2>
+                        <button class="cart-add-btn">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="./script.js"></script>
+    </body>
+</html>

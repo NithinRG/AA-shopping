@@ -123,7 +123,6 @@ const updateCount = (n, thisBtn, id) => {
 //Close cart on clicking outside
 window.onload = () => {
     document.onclick = function (e) {
-        console.log(e.target, e.target.classList);
         if (
             !(
                 cartElement.contains(e.target) ||
